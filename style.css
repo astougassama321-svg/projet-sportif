@@ -1,0 +1,128 @@
+ 
+style {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: #fcfaff;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #2c3e50;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    color: white;
+    font-size:24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo span { color: #9b59b6; }
+
+nav ul { display: flex; 
+    list-style: none;
+ }
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 8px 24px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, .active {
+    color: #9b59b6;
+}
+
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(LOGO.png);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 { font-size: 60px; margin-bottom: 10px; }
+
+
+.content {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+
+h2 { color: #2c3e50; margin-bottom: 24px; border-bottom: 2px solid #9b59b6; display: inline-block; }
+
+.star-card {
+    border-left: 5px solid #9b59b6;
+    background: #f9f4ff;
+    padding: 24px;;
+    margin-bottom:24px;
+    border-radius: 0 5px 5px 0;
+}
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+form { display: flex; flex-direction: column; }
+input, textarea {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background: #9b59b6;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 60px;
+}
+video{
+    width: 50%;
+    height: auto;
+    border: 1px solid;
+}
